@@ -8,27 +8,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <link rel="stylesheet" href="stylesheet.css">
   
 
 
 </head>
-
 <body>
   <header class="site-header">
     <div class="wrap">
       <nav class="nav">
-        <div class="logo">
-            <a href =index.html class="logo"><img src="Assets/logo.jpg" alt=""height="32px">
-            <span class="logo-text">Opulento Agriventures</span></href></a>
-        </div>
+       <a href="index.html" class="logo"><img src="Assets/logo.jpg" alt="" class="logoimg"> Opulento Agriventures</a>
+
           <ul class="nav-links">
               <li><a href="index.html">Home</a></li>
+              <li><a href="news.html">News</a></li>
               <li><a href="about.html" class="active">About Us</a></li>
-              <li><a href=prodandservice.html">Product &amp; Services</a></li>
-              <li><a href="contact.html">News</a></li>
+              <li><a href="prodandservice.html">Products &amp; Services</a></li>
+              
             </ul>
         <a href="prodandservice.html" class="nav-cta">View products</a>
       </nav>
@@ -37,7 +34,7 @@
   
   <div class="page-body">
     <aside class="side-nav">
-      <div class="side-nav-title">On This Page</div>
+      <div class="side-nav-title"><h2> This Page</h2></div>
      <ul>
         <li><a href="#story">Our Story</a></li>
         <li><a href="#milestones">Milestones</a></li>
@@ -50,8 +47,10 @@
 
     <main>
     <div class="main-content">
-      <!--Our Story-->>
-      <section class="section" id="story">
+
+      <!--Our Story-->
+
+      <section class="section dark" id="story">
         <div class="wrap">
           <span class="kicker">Who we are</span>
           <h2>Our Story</h2>
@@ -64,7 +63,8 @@
       </section>
 
       <!--Milestones-->
-      <section class="section" id="milestiones">
+
+      <section class="section dark" id="milestones">
         <div class="wrap">
           <span class="kicker" >Milestones</span>
           <h2>Our Journey</h2>
@@ -106,7 +106,8 @@
       </section>
 
       <!--Mission & Values-->
-      <section class="section light" id="values">
+
+      <section class="section" id="values">
         <div class="wrap">
           <span class="kicker">What Drives Us</span>
           <h2>Mission &amp; Values</h2>
@@ -128,31 +129,35 @@
       </section>
 
       <!--Certification-->
+
       <section class="section" id="certification">
         <div class="wrap">
           <span class="kicker">Recognized by Our Standards</span>
           <h2>Certification &amp; Accreditation</h2>
 
           <div class="cert-grid">
+            <div class="cert-item">
             <div class="cert-name">[Certification and accreditation name]</div>
             <div class="cert-desc">[Description of the certification and accreditation]</div>
           </div>
 
-          <div class="cert-grid">
+          <div class="cert-item">
             <div class="cert-name">[Certification and accreditation name]</div>
             <div class="cert-desc">[Description of the certification and accreditation]</div>
           </div>
 
-          <div class="cert-grid">
+          <div class="cert-item">
             <div class="cert-name">[Business Registration]</div>
             <div class="cert-desc">[DTI/SEC/Business Permit Details]</div>
           </div>
         </div>
+      </div>
+      </div>
       </section>
-  </div>
 
   <!--Facilities-->
-  <section class="section" id="facilities">
+
+  <section class="section dark" id="facilities">
       <div class="wrap">
         <span class="kicker">Behind the Scenes</span>
         <h2>Our Facilities</h2>
@@ -163,38 +168,43 @@
           </div>
         </div>
   </section>
-  <section class="section light" id="team">
+  
+               <!--TEAM-->
+
+  <section class="section" id="team">
     <div class="wrap">
       <span class="kicker">The People Behind It</span>
-      <h2>Meet Our Team</h2>
-      <div class="team-strip">
+        <h2>Meet Our Team</h2>
+
+      <div class="team-grid">
         <div class="team-card">
-          <div class="position">Founder/CEO</div>
-          <div class="name" style="letter-spacing: 0;">[Juan Dela Cruz]</div>
-          <div class="card-hover-content">
             <img src="Assets/CEO.jpg" alt="Juan Dela Cruz" class="card-hover-img">
-            <div class="desc">[Extended bio]</div>
+             <div class="name" style="letter-spacing: 0;">[Juan Dela Cruz]</div>
+             <div class="role">Founder/CEO</div>
+             <div class="bio">[Extended bio]</div>
         </div>
 
       <div class="team-card">
-        <div class="position">Head of Operations</div>
-        <div class="name" style="letter-spacing: 0;">[Con D. Oriano]</div>
-        <div class="card-hover-content">
-          <img src="Assets/HOO.jpg" alt="Con D. Oriano" class="card-hover-img">
-          <div class="desc">[Extended bio]</div>
-        </div>
+          <img src="Assests/HOO.jpg" alt="Con D. Oriano" class="card-hover-img">
+            <div class="name" style="letter-spacing: 0;">[Con D. Oriano]</div>
+            <div class="role">Head of Operations</div>
+            <div class="bio">[Bio]</div>
+      </div>
 
         <div class="team-card">
-          <div class="position">Head of Sales</div>
-          <div class="name" style="letter-spacing: 0;">[Sales Person]</div>
-          <div class="card-hover-content">
-            <img src="Assets/HOS.jpg" alt="Sales Person" class="card-hover-img">
-            <div class="desc">[Extended bio]</div>
+          <img src="Assets/HOS.jpg" alt="Sales Person" class="card-hover-img">
+            <div class="name" style="letter-spacing: 0;">[Sales Man]</div>
+            <div class="role">Head of Sales</div>
+            <div class="bio">[Extended bio]</div>
           </div>
 
+        </div>
       </div>
+    </div>
   </section>
+
 <!--CTA BANNER-->
+
   <section  class="cta-banner cta-banner-gold">
     <div class="wrap">
       <h2>See What We Have Ready Now</h2>
@@ -204,7 +214,8 @@
     </div>
     </div>
   </section>
-  <section class="section" id="contact">
+
+  <section class="section dark" id="contact">
             <div class="wrap">
               <span class="kicker">Get In Touch</span>
               <h2>Visit the Nursery</h2>
@@ -219,14 +230,15 @@
                     <li><strong>Hours:</strong> 9 AM – 5 PM, Mon – Fri</li>
                   </ul>
                 </div>
-                <a href="about.html" class="btn btn-outline">Contact Us</a>
               </div>
             </div>
           </section>
 </main>
-    <footer class="site-footer wrap">
+    <section class="section dark">
+    <footer class="site-footer wrap footer-light">
 
       <span>©2019 Opulento Agriventures  </span>
       <span> Sua, Camalig, Albay, Philippines</span>
+    </section>
 </body>
 </html>
